@@ -1,0 +1,12 @@
+{
+  "name": "serin-brand-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "SÉRIN premium inner beauty editorial brand demo — HTML, CSS, Vanilla JavaScript",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "optimize": "node tools/optimize-images.mjs",
+    "check": "node --check js/main.js && node tools/check.mjs && node tools/check-interactions.mjs && node tools/check-responsive.mjs"
+  },
+  "devDependencies": { "sharp": "^0.34.5", "linkedom": "^0.18.12" }
+}

@@ -1,0 +1,1271 @@
+@media(max-width:700px) {
+  .back-to-top {
+    right: max(16px, env(safe-area-inset-right));
+    bottom: max(16px, env(safe-area-inset-bottom));
+    width: 46px;
+    height: 46px;
+  }
+}
+@media(min-width:1600px) {
+  .hero-content {
+    padding-left: max(var(--page-pad),calc((100vw - 1400px)/2));
+  }
+  .hero-bottom {
+    left: max(var(--page-pad),calc((100vw - 1400px)/2));
+    right: max(var(--page-pad),calc((100vw - 1400px)/2));
+  }
+}
+@media(max-width:1100px) {
+  .section-pad {
+    padding-top: 75px;
+    padding-bottom: 75px;
+  }
+  .philosophy-grid {
+    grid-template-columns: 5fr .6fr 6fr;
+    padding: 0 0 65px;
+  }
+  .philosophy-copy {
+    padding-left: 10px;
+  }
+  .philosophy-copy h2 {
+    font-size: 54px;
+  }
+  .philosophy-copy .korean-title {
+    font-size: 23px;
+  }
+  .philosophy-copy>p:not(.korean-title) {
+    font-size: 15px;
+  }
+  .product-grid {
+    gap: 40px;
+  }
+  .product-info {
+    padding-bottom: 0;
+  }
+  .product-info>h3 {
+    font-size: 34px;
+  }
+  .product-intro {
+    font-size: 15px;
+    margin: 14px 0 22px;
+  }
+  .product-heading>p {
+    padding-right: 0;
+  }
+  .ingredients-grid {
+    gap: 50px;
+  }
+  .ingredients .korean-title {
+    font-size: 21px;
+  }
+  .texture-main {
+    min-height: 650px;
+  }
+  .texture-layout {
+    grid-template-columns: 7fr 5fr;
+  }
+  .texture-copy {
+    padding: 30px;
+  }
+  .texture-copy>h3 {
+    font-size: 26px;
+  }
+  .texture-side>img {
+    height: 270px;
+  }
+  .ritual-heading h2 {
+    font-size: 49px;
+  }
+  .ritual-heading p {
+    font-size: 12px;
+  }
+  .ritual-grid {
+    gap: 20px;
+  }
+  .card-meta {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 3px;
+  }
+  .ritual-card h3 {
+    font-size: 18px;
+  }
+  .campaign-main {
+    height: 650px;
+  }
+  .campaign-bottom {
+    gap: 35px;
+  }
+  .campaign-bottom>p {
+    font-size: 23px;
+  }
+  .campaign-detail {
+    gap: 20px;
+  }
+  .campaign-detail img {
+    width: 140px;
+  }
+  .campaign-detail span {
+    font-size: 13px;
+  }
+  .journal-grid {
+    gap: 24px;
+  }
+  .journal-card h3 {
+    font-size: 23px;
+  }
+  .faq {
+    gap: 45px;
+    grid-template-columns: 4.5fr 7.5fr;
+  }
+}
+@media(max-width:850px) {
+  .philosophy-grid {
+    grid-template-columns: 1fr 1.1fr;
+    gap: 30px;
+  }
+  .philosophy-copy {
+    grid-column: 2;
+    padding-left: 0;
+  }
+  .philosophy-copy h2 {
+    font-size: 46px;
+  }
+  .philosophy-copy .korean-title {
+    font-size: 21px;
+  }
+  .philosophy-copy>p:not(.korean-title) {
+    font-size: 14px;
+  }
+  .philosophy-copy .text-link {
+    font-size: 12px;
+  }
+  .philosophy-image>img {
+    aspect-ratio: 4/6;
+  }
+  .value-row h3 {
+    font-size: 23px;
+  }
+  .value-row>div {
+    padding-left: 18px;
+  }
+  .value-row p {
+    font-size: 11px;
+  }
+  .product-heading h2 {
+    font-size: 58px;
+  }
+  .product-heading>p {
+    font-size: 13px;
+  }
+  .product-grid {
+    grid-template-columns: minmax(0,1.02fr) minmax(0,.98fr);
+    gap: 28px;
+  }
+  .product-info>h3 {
+    font-size: 30px;
+  }
+  .product-korean,.product-intro {
+    font-size: 14px;
+  }
+  .gallery-thumb {
+    flex-direction: column;
+    padding-bottom: 6px;
+    padding: 4px;
+    gap: 4px;
+  }
+  .gallery-thumb img {
+    width: 100%;
+    height: auto;
+    aspect-ratio: 1;
+  }
+  .gallery-thumb span {
+    font-size: 12px;
+  }
+  .ingredients-grid {
+    gap: 35px;
+  }
+  .ingredients h2 {
+    font-size: 47px;
+  }
+  .ingredients .korean-title {
+    font-size: 18px;
+  }
+  .ingredients-copy>p:not(.korean-title) {
+    font-size: 14px;
+  }
+  .table-heading h3 {
+    font-size: 16px;
+  }
+  .ingredient-table dt {
+    font-size: 15px;
+  }
+  .ingredient-table dd {
+    font-size: 14px;
+  }
+  .sensory-title {
+    display: block;
+  }
+  .sensory-title p {
+    margin-top: 20px;
+  }
+  .sensory-title h2 {
+    font-size: 55px;
+  }
+  .texture-main {
+    min-height: 600px;
+  }
+  .texture-side>img {
+    height: 220px;
+  }
+  .texture-copy {
+    padding: 28px 24px;
+  }
+  .texture-copy>h3 {
+    font-size: 24px;
+  }
+  .texture-copy>p {
+    font-size: 14px;
+  }
+  .ritual-heading {
+    display: block;
+  }
+  .ritual-heading h2 {
+    font-size: 56px;
+  }
+  .ritual-heading p {
+    font-size: 13px;
+    margin-top: 22px;
+  }
+  .ritual-card:nth-child(2) {
+    padding-top: 45px;
+  }
+  .ritual-card:nth-child(3) {
+    padding-top: 90px;
+  }
+  .ritual-card h3 {
+    font-size: 17px;
+  }
+  .ritual-card>p {
+    font-size: 14px;
+  }
+  .campaign-main {
+    height: 600px;
+  }
+  .campaign-overlay h2 {
+    font-size: 78px;
+  }
+  .campaign-bottom {
+    padding-block: 45px;
+  }
+  .campaign-bottom>p {
+    font-size: 20px;
+  }
+  .campaign-detail {
+    gap: 18px;
+  }
+  .campaign-detail img {
+    width: 110px;
+  }
+  .campaign-detail span {
+    font-size: 13px;
+  }
+  .journal-heading h2 {
+    font-size: 64px;
+  }
+  .journal-heading p {
+    font-size: 12px;
+  }
+  .journal-grid {
+    gap: 20px;
+    grid-template-columns: repeat(3,1fr);
+  }
+  .journal-card:nth-child(2) {
+    padding-top: 50px;
+  }
+  .journal-card:nth-child(3) {
+    padding-top: 100px;
+  }
+  .journal-card h3 {
+    font-size: 20px;
+  }
+  .journal-card>p {
+    font-size: 14px;
+  }
+  .faq {
+    grid-template-columns: 1fr 1.5fr;
+    gap: 30px;
+  }
+  .faq h2 {
+    font-size: 35px;
+  }
+  .faq-list summary {
+    gap: 12px;
+    font-size: 15px;
+  }
+  .faq-list details>p {
+    padding-right: 20px;
+    font-size: 14px;
+  }
+}
+@media(max-width:700px) {
+  :root {
+    --page-pad: 24px;
+  }
+  .section-pad {
+    padding-top: 56px;
+    padding-bottom: 56px;
+  }
+  .philosophy-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 28px;
+    padding: 0 0 36px;
+  }
+  .philosophy-image {
+    width: 90%;
+  }
+  .philosophy-image>img {
+    aspect-ratio: 4/4.6;
+  }
+  .philosophy-image figcaption {
+    font-size: 9px;
+  }
+  .philosophy-copy {
+    padding-left: 0;
+  }
+  .philosophy-copy h2 {
+    font-size: 52px;
+  }
+  .philosophy-copy .korean-title {
+    margin-top: 24px;
+    margin-bottom: 20px;
+    font-size: 22px;
+    margin: 22px 0 18px;
+  }
+  .philosophy-copy>p:not(.korean-title) {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .philosophy-copy .text-link {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .value-row {
+    grid-template-columns: repeat(2,1fr);
+    padding-top: 25px;
+    row-gap: 26px;
+    column-gap: 12px;
+  }
+  .value-row>div {
+    padding-left: 16px;
+  }
+  .value-row>div:nth-child(3) {
+    border-left: 0;
+    padding-left: 0;
+  }
+  .value-row h3 {
+    font-size: 26px;
+    margin: 0 0 8px;
+  }
+  .value-row p {
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  .product-heading {
+    display: block;
+    padding: 0 0 30px;
+    padding-bottom: 24px;
+  }
+  .product-heading h2 {
+    font-size: 48px;
+  }
+  .product-heading>p {
+    padding: 0;
+    font-size: 14px;
+    margin-top: 16px;
+  }
+  .product-grid {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 26px;
+  }
+  .gallery-thumb {
+    padding-bottom: 0;
+    flex-direction: row;
+    min-height: 58px;
+    padding: 4px;
+    gap: 8px;
+  }
+  .gallery-thumb img {
+    width: 44px;
+    height: 44px;
+  }
+  .gallery-thumb span {
+    font-size: 12px;
+  }
+  .gallery-controls {
+    gap: 8px;
+    margin-top: 10px;
+  }
+  .product-info {
+    padding: 0;
+  }
+  .product-info>h3 {
+    font-size: 32px;
+    margin-top: 10px;
+  }
+  .product-info>h3 br {
+    display: initial;
+  }
+  .product-korean,.product-intro {
+    font-size: 14px;
+  }
+  .product-intro br {
+    display: none;
+  }
+  .feature-list {
+    gap: 6px 16px;
+    margin-top: 16px;
+  }
+  .feature-list li {
+    font-size: 13px;
+  }
+  .ingredients-grid {
+    display: flex;
+    flex-direction: column;
+    padding-top: 0;
+    gap: 32px;
+  }
+  .ingredients h2 {
+    font-size: 50px;
+  }
+  .ingredients .korean-title {
+    margin-top: 25px;
+    font-size: 22px;
+  }
+  .ingredients-copy>p:not(.korean-title) {
+    font-size: 15px;
+    line-height: 1.7;
+  }
+  .table-heading {
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 6px;
+  }
+  .table-heading h3 {
+    font-size: 17px;
+  }
+  .table-heading>span {
+    font-size: 10px;
+  }
+  .ingredient-table dl>div {
+    padding: 19px 0;
+  }
+  .ingredient-table dt {
+    font-size: 15px;
+  }
+  .ingredient-table dd {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .ingredient-table>p {
+    font-size: 12px;
+    line-height: 1.7;
+  }
+  .sensory-header {
+    padding-bottom: 30px;
+  }
+  .sensory-title {
+    padding-top: 0;
+  }
+  .sensory-title h2 {
+    max-width: 350px;
+    font-size: 44px;
+  }
+  .sensory-title p {
+    margin-top: 16px;
+    font-size: 14px;
+  }
+  .texture-layout {
+    display: block;
+  }
+  .texture-main {
+    height: 300px;
+    min-height: 0;
+  }
+  .texture-main img {
+    object-position: 55% center;
+  }
+  .texture-side {
+    display: grid;
+    grid-template-columns: minmax(0,.8fr) minmax(0,1.2fr);
+  }
+  .texture-side>img {
+    height: 100%;
+    object-position: 45% center;
+    min-height: 340px;
+  }
+  .texture-copy {
+    padding: 24px 18px;
+  }
+  .texture-copy>span {
+    letter-spacing: .03em;
+    font-size: 9px;
+  }
+  .texture-copy>h3 {
+    font-size: 23px;
+    margin-top: 14px;
+  }
+  .texture-copy>p {
+    font-size: 14px;
+    line-height: 1.65;
+    margin-top: 14px;
+  }
+  .texture-copy>p br {
+    display: none;
+  }
+  .ritual-heading {
+    padding: 0 0 32px;
+  }
+  .ritual-heading h2 {
+    max-width: 340px;
+    font-size: 44px;
+  }
+  .ritual-heading p {
+    margin-top: 18px;
+    font-size: 14px;
+  }
+  .ritual-grid {
+    flex-direction: column;
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: 86%;
+    grid-template-columns: none;
+    align-items: start;
+    gap: 16px;
+    overflow-x: auto;
+    margin-right: calc(-1 * var(--page-pad));
+    padding: 5px var(--page-pad) 18px 0;
+    scroll-padding-inline: 0 var(--page-pad);
+    scroll-snap-type: x proximity;
+    overscroll-behavior-x: contain;
+    scrollbar-width: thin;
+    scrollbar-color: var(--sage) transparent;
+  }
+  .ritual-card {
+    min-width: 0;
+    max-width: none;
+    scroll-snap-align: start;
+    scroll-margin: 4px;
+  }
+  .ritual-card:focus-visible {
+    outline-offset: -2px;
+  }
+  .ritual-card:nth-child(2),.ritual-card:nth-child(3) {
+    padding-top: 0;
+  }
+  .ritual-card:nth-child(odd) {
+    margin-right: 0;
+  }
+  .ritual-card:nth-child(2) {
+    margin-left: 0;
+    padding-top: 0;
+  }
+  .ritual-card .image-hover img {
+    aspect-ratio: 4/5;
+  }
+  .card-meta {
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    font-size: 12px;
+    margin-top: 16px;
+  }
+  .ritual-card h3 {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+  }
+  .ritual-card>p {
+    margin-top: 8px;
+    font-size: 14px;
+    line-height: 1.65;
+  }
+  .campaign-main {
+    height: 560px;
+  }
+  .campaign-main>img {
+    object-position: 90% center;
+  }
+  .campaign-main:after {
+    background: linear-gradient(0deg,rgba(21,34,26,.67),transparent 75%);
+  }
+  .campaign-overlay {
+    top: auto;
+    left: 24px;
+    max-width: calc(100% - 48px);
+    bottom: 32px;
+  }
+  .campaign-overlay h2 {
+    margin: 0 0 20px;
+    font-size: clamp(44px,10vw,64px);
+    line-height: 1.1;
+    margin-bottom: 18px;
+  }
+  .campaign-overlay p {
+    font-size: 15px;
+    max-width: 23em;
+  }
+  .campaign-bottom {
+    display: block;
+    padding: 40px 24px;
+  }
+  .campaign-bottom>p {
+    font-size: 23px;
+  }
+  .campaign-detail {
+    margin-top: 30px;
+    gap: 20px;
+  }
+  .campaign-detail img {
+    width: 112px;
+  }
+  .campaign-detail span {
+    font-size: 14px;
+    line-height: 1.7;
+  }
+  .journal-heading {
+    display: block;
+    padding: 0 0 32px;
+  }
+  .journal-heading h2 {
+    font-size: 56px;
+  }
+  .journal-heading p {
+    margin-top: 17px;
+    font-size: 14px;
+  }
+  .journal-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 34px;
+  }
+  .journal-card {
+    width: 100%;
+  }
+  .journal-card:nth-child(2),.journal-card:nth-child(3) {
+    padding-top: 0;
+  }
+  .journal-image img {
+    aspect-ratio: 4/3;
+  }
+  .journal-card h3 {
+    font-size: 23px;
+    line-height: 1.45;
+    margin-top: 18px;
+  }
+  .journal-card h3 br {
+    display: none;
+  }
+  .journal-card>p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 10px;
+  }
+  .journal-card .text-link {
+    font-size: 14px;
+    margin-top: 12px;
+  }
+  .faq {
+    display: block;
+  }
+  .faq h2 {
+    font-size: 44px;
+    margin-top: 0;
+  }
+  .faq-intro>p {
+    font-size: 14px;
+  }
+  .faq-intro .small-tag {
+    font-size: 10px;
+    margin-top: 15px;
+  }
+  .faq-list {
+    margin-top: 35px;
+  }
+  .faq-list summary {
+    font-size: 15px;
+    min-height: 72px;
+    padding: 22px 0;
+    line-height: 1.65;
+  }
+  .faq-list details>p {
+    font-size: 14px;
+    line-height: 1.8;
+    padding-right: 12px;
+  }
+  .closing {
+    padding: 60px 24px;
+  }
+  .closing .eyebrow {
+    font-size: 8px;
+    letter-spacing: .08em;
+  }
+  .closing h2 {
+    font-size: 49px;
+    line-height: 1.12;
+    margin-top: 22px;
+  }
+  .closing>p {
+    font-size: 14px;
+    margin-top: 20px;
+  }
+  .closing .button {
+    font-size: 12px;
+    min-height: 50px;
+    margin-top: 25px;
+  }
+  .content-dialog {
+    padding: 50px 24px 30px;
+    max-height: 90svh;
+  }
+  .content-dialog h2 {
+    font-size: 29px;
+    margin-top: 25px;
+    line-height: 1.35;
+  }
+  .content-dialog .eyebrow {
+    font-size: 8px;
+  }
+  .content-dialog .dialog-lead {
+    font-size: 16px;
+  }
+  .content-dialog>img {
+    max-height: 330px;
+  }
+  .dialog-spec {
+    font-size: 12px;
+  }
+  .dialog-spec>div {
+    grid-template-columns: 1fr 1.3fr;
+    gap: 13px;
+  }
+  .journal-dialog>p {
+    font-size: 14px;
+  }
+  .journal-dialog>h3 {
+    font-size: 18px;
+  }
+  .small-dialog h2 {
+    font-size: 26px;
+  }
+}
+@media(max-width:374px) {
+  :root {
+    --page-pad: 20px;
+  }
+  .philosophy-copy {
+    padding-left: 0;
+  }
+  .philosophy-copy h2 {
+    font-size: 48px;
+  }
+  .product-info>h3 {
+    font-size: 30px;
+  }
+  .table-heading {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  .texture-copy {
+    padding: 22px 16px;
+  }
+  .texture-copy>h3 {
+    font-size: 22px;
+  }
+  .closing h2 {
+    font-size: 43px;
+  }
+  .faq h2 {
+    font-size: 40px;
+  }
+}
+/* Header: spacious commerce navigation, adapted to SÉRIN's palette. */
+@media(max-width:1250px) {
+  .header-main {
+    grid-template-columns: 165px minmax(0,1fr) 148px;
+    gap: 22px;
+  }
+  .wordmark-name {
+    font-size: 40px;
+  }
+  .wordmark-tagline {
+    font-size: 7px;
+  }
+  .desktop-nav {
+    gap: 17px;
+  }
+  .desktop-nav a {
+    font-size: 14px;
+  }
+  .desktop-nav .nav-story {
+    padding-left: 18px;
+    margin-left: 1px;
+  }
+  .desktop-nav .nav-story:after {
+    left: 18px;
+  }
+  .desktop-nav .nav-story:hover:after {
+    width: calc(100% - 18px);
+  }
+  .header-actions {
+    gap: 8px;
+  }
+  .header-action {
+    min-width: 44px;
+  }
+}
+@media(max-width:1100px) {
+  :root {
+    --header-expanded-height: 90px;
+  }
+  .header-main {
+    grid-template-columns: 1fr auto;
+  }
+  .desktop-nav {
+    display: none;
+  }
+  .header-actions {
+    gap: 8px;
+  }
+  .header-action {
+    min-width: 44px;
+  }
+  .wordmark-name {
+    font-size: 40px;
+  }
+  .wordmark-tagline {
+    font-size: 7px;
+  }
+  .mobile-menu {
+    column-gap: 40px;
+  }
+  .mobile-menu>a {
+    font-size: 22px;
+  }
+}
+@media(max-width:850px) {
+  .mobile-menu {
+    grid-template-columns: 1fr;
+    padding-top: 18px;
+  }
+  .mobile-menu>a {
+    min-height: 70px;
+    font-size: 25px;
+  }
+}
+@media(max-width:700px) {
+  :root {
+    --header-expanded-height: 84px;
+  }
+  .header-main {
+    gap: 15px;
+  }
+  .wordmark-name {
+    font-size: 34px;
+  }
+  .wordmark-tagline {
+    font-size: 6px;
+    margin-top: 8px;
+    letter-spacing: .13em;
+  }
+  .header-actions {
+    gap: 4px;
+  }
+  .header-action {
+    min-width: 44px;
+    min-height: 58px;
+    gap: 6px;
+  }
+  .header-action>svg {
+    width: 25px;
+    height: 25px;
+  }
+  .has-compact-header .site-header .wordmark-name {
+    font-size: 28px;
+  }
+  .menu-icon {
+    width: 25px;
+    height: 25px;
+  }
+  .menu-icon>span {
+    top: 4px;
+  }
+  .menu-icon>span:nth-child(2) {
+    top: 12px;
+  }
+  .menu-icon>span:nth-child(3) {
+    top: 20px;
+  }
+  .mobile-menu {
+    padding: 12px var(--page-pad) 28px;
+  }
+  .mobile-menu>a {
+    font-size: 20px;
+    gap: 12px;
+    min-height: 65px;
+    padding-block: 17px;
+  }
+  .mobile-menu>a>span {
+    font-size: 10px;
+  }
+  .mobile-menu>p {
+    font-size: 18px;
+    margin-top: 28px;
+  }
+  .mobile-menu small {
+    font-size: 10px;
+  }
+}
+@media(max-width:374px) {
+  .wordmark-name {
+    font-size: 30px;
+  }
+  .wordmark-tagline {
+    font-size: 5.5px;
+  }
+  .header-actions {
+    gap: 2px;
+  }
+  .header-action {
+    min-width: 44px;
+  }
+  .mobile-menu>a {
+    font-size: 18px;
+  }
+}
+/* Footer: brand information, navigation and customer care. */
+@media(max-width:1100px) {
+  .footer-main {
+    grid-template-columns: 6fr 2.5fr 3.5fr;
+  }
+  .footer-brand {
+    padding-right: 28px;
+  }
+  .footer-links {
+    padding-inline: 25px;
+  }
+  .footer-support {
+    padding-left: 28px;
+  }
+  .footer-support>h2 {
+    font-size: 25px;
+  }
+  .footer-support>p:not(.footer-support-note) {
+    font-size: 14px;
+  }
+  .footer-bottom-inner {
+    gap: 20px;
+  }
+}
+@media(max-width:850px) {
+  .footer-main {
+    grid-template-columns: 1fr 1fr;
+  }
+  .footer-brand {
+    grid-column: 1/-1;
+    padding: 42px 0 32px;
+    border-bottom: 1px solid var(--line);
+  }
+  .footer-brand-info {
+    margin-top: 26px;
+  }
+  .footer-links {
+    border-left: 0;
+    padding: 30px 30px 35px 0;
+  }
+  .footer-support {
+    padding: 32px 0 32px 30px;
+  }
+  .footer-bottom-inner {
+    flex-wrap: wrap;
+    gap: 8px 20px;
+  }
+}
+@media(max-width:700px) {
+  .footer-main {
+    grid-template-columns: 1fr;
+  }
+  .footer-brand {
+    padding: 36px 0 28px;
+  }
+  .footer-wordmark .wordmark-name {
+    font-size: 38px;
+  }
+  .footer-wordmark .wordmark-tagline {
+    font-size: 6.5px;
+    margin-top: 9px;
+  }
+  .footer-brand-info {
+    margin-top: 27px;
+  }
+  .footer-brand-name {
+    font-size: 14px;
+  }
+  .footer-brand-name>span {
+    margin-left: 10px;
+    font-size: 11px;
+  }
+  .footer-brand-message {
+    font-size: 14px;
+  }
+  .footer-links {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 4px 20px;
+    padding: 22px 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .footer-links>a,.footer-links>button {
+    font-size: 14px;
+  }
+  .footer-support {
+    border-left: 0;
+    padding: 30px 0;
+  }
+  .footer-support>h2 {
+    font-size: 28px;
+  }
+  .footer-support>p:not(.footer-support-note) {
+    margin-top: 15px;
+    font-size: 14px;
+  }
+  .footer-socials {
+    margin-top: 12px;
+  }
+  .footer-bottom {
+    padding-block: 20px 24px;
+  }
+  .footer-bottom-inner {
+    gap: 16px 12px;
+  }
+  .footer-copyright {
+    white-space: normal;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .footer-copyright>span {
+    display: block;
+    margin-top: 2px;
+    font-size: 10px;
+  }
+}
+/* One continuous photographic hero, with responsive art direction. */
+@media(max-width:1100px) {
+  .hero {
+    min-height: 650px;
+  }
+  .hero .hero-headline {
+    font-size: 84px;
+  }
+  .hero-content {
+    width: 65%;
+    padding-bottom: 90px;
+  }
+  .hero-korean {
+    font-size: 21px;
+  }
+  .hero-art img {
+    object-position: 55% center;
+  }
+  .product-korean {
+    font-size: 14px;
+  }
+  .ingredients-copy>p:not(.korean-title) {
+    font-size: 15px;
+  }
+  .texture-copy>p {
+    font-size: 14px;
+  }
+  .ritual-card>p {
+    font-size: 14px;
+  }
+  .journal-card>p {
+    font-size: 14px;
+  }
+}
+@media(max-width:850px) {
+  .hero {
+    height: calc(100svh - var(--header-expanded-height));
+    max-height: none;
+    align-items: flex-start;
+    min-height: 900px;
+  }
+  .hero-art img {
+    object-position: center bottom;
+  }
+  .hero-content {
+    width: 100%;
+    padding: 40px var(--page-pad) 0;
+    padding-top: 32px;
+  }
+  .hero .eyebrow {
+    font-size: 9px;
+    margin-bottom: 22px;
+  }
+  .hero .hero-headline {
+    line-height: 1.02;
+    font-size: 68px;
+  }
+  .hero-korean {
+    line-height: 1.6;
+    font-size: 20px;
+    margin-top: 16px;
+  }
+  .hero-description {
+    line-height: 1.7;
+    font-size: 14px;
+    margin-top: 10px;
+  }
+  .hero .button {
+    min-height: 52px;
+    margin-top: 18px;
+  }
+  .hero-bottom {
+    bottom: 0;
+    padding-top: 0;
+  }
+}
+@media(max-width:700px) {
+  .hero {
+    min-height: 0;
+    height: clamp(640px,calc(100svh - var(--header-expanded-height)),780px);
+  }
+  .hero-art img {
+    object-position: center;
+  }
+  .hero-content {
+    padding: 20px var(--page-pad) 0;
+  }
+  .hero .eyebrow {
+    font-size: 8px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+    letter-spacing: .09em;
+    display: none;
+  }
+  .hero .hero-headline {
+    letter-spacing: -.055em;
+    white-space: normal;
+    font-size: clamp(42px,12vw,52px);
+    line-height: 1.02;
+  }
+  .hero-korean {
+    font-size: 17px;
+    line-height: 1.6;
+    margin-top: 12px;
+  }
+  .hero-description {
+    font-size: 14px;
+    line-height: 1.55;
+    max-width: 285px;
+    margin-top: 8px;
+  }
+  .hero .button {
+    min-width: 190px;
+    min-height: 48px;
+    font-size: 14px;
+    margin-top: 12px;
+    padding: 12px 18px;
+  }
+  .hero-bottom {
+    bottom: 0;
+    font-size: 8px;
+  }
+  .hero-bottom a {
+    font-size: 10px;
+    gap: 14px;
+    min-height: 44px;
+  }
+}
+@media(max-width:374px) {
+  .hero .hero-headline {
+    font-size: 42px;
+  }
+  .hero .eyebrow {
+    font-size: 7px;
+  }
+  .hero-korean {
+    font-size: 17px;
+  }
+  .product-total output {
+    font-size: 28px;
+  }
+  .footer-bottom-inner {
+    align-items: flex-start;
+  }
+}
+@media(max-width:700px) {
+  .hero-bottom>a {
+    display: none;
+  }
+  .hero-controls {
+    gap: 0;
+    padding-right: env(safe-area-inset-right,0px);
+  }
+  .hero-bottom>span {
+    display: none;
+  }
+  .hero-bottom {
+    gap: 8px;
+    justify-content: flex-end;
+  }
+  .hero-slide-sensory .hero-headline {
+    font-size: clamp(42px,12vw,52px);
+  }
+  .product-intro {
+    margin: 12px 0 20px;
+    line-height: 1.65;
+  }
+  .product-total output {
+    font-size: 30px;
+  }
+  .product-primary-cta {
+    min-height: 56px;
+    font-size: 15px;
+  }
+  .ritual-card:nth-child(3) {
+    padding-top: 0;
+  }
+  .ritual-navigation {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 12px;
+  }
+  .ritual-navigation>p {
+    font-size: 12px;
+    line-height: 1.6;
+    color: var(--muted);
+  }
+  .ritual-navigation>div {
+    display: flex;
+    gap: 4px;
+    flex-shrink: 0;
+  }
+  .ritual-navigation button {
+    width: 44px;
+    height: 44px;
+    font-size: 22px;
+    line-height: 1;
+  }
+  .ritual-navigation button:disabled {
+    opacity: .3;
+    cursor: not-allowed;
+  }
+}

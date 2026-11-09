@@ -1,0 +1,167 @@
+[
+  {
+    "name": "hero-master",
+    "source": "assets/images/hero-master.png",
+    "web": "assets/images/hero-master.webp",
+    "prompt": "Create one premium editorial wellness product photograph for fictional brand SÉRIN. Wide landscape 3:2 composition. Master package reference and hero image. Matte deep green SÉRIN Essential Collagen Jelly box, ivory foil sticks, limestone pedestal and warm ivory backdrop. Natural sun and architectural shadows. Reference package for all subsequent product photography.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "role": "Preserved package reference; superseded as website hero by hero-full-v2"
+  },
+  {
+    "name": "product-group",
+    "source": "assets/images/product-group.png",
+    "web": "assets/images/product-group.webp",
+    "prompt": "Use case: product-mockup. Using reference as exact package identity, create a NEW square premium catalog photograph of the same matte deep green SÉRIN box and three identical ivory stick sachets, placed on smooth warm ivory table against very pale sage background. Eye-level three-quarter view, full products visible with generous surrounding space. Box centered-left, sticks to right. Same typography, box proportions and sage-free ivory sticks as reference. Soft northern sunlight, refined paper texture, no plants, no additional props, no labels or UI outside package. Exact brand SÉRIN, Essential Collagen Jelly. Quiet luxury editorial.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "product-box",
+    "source": "assets/images/product-box.png",
+    "web": "assets/images/product-box.webp",
+    "prompt": "Use case: product-mockup. Reference image defines exact SÉRIN green box packaging identity. New square still-life photograph of ONLY the same matte botanical deep green rectangular SÉRIN Essential Collagen Jelly box, isolated standing on warm ivory limestone, pale plaster backdrop. Camera closer three-quarter, entire box with small breathing room. Same print, proportions and shape. Natural side light, no sachets, no bottles, no claims, no UI.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "product-stick",
+    "source": "assets/images/product-stick.png",
+    "web": "assets/images/product-stick.webp",
+    "prompt": "Use case: product-mockup. Reference image defines exact SÉRIN ivory stick sachet. New square closeup photograph of three identical ivory foil SÉRIN Essential Collagen Jelly long narrow sachets overlapping diagonally on pale sage matte paper. Same narrow proportions, fine crimp ends, typography and packaging design as the reference. Entire sticks in frame. Natural light, long soft shadows, no box, no extra text outside print.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "philosophy",
+    "source": "assets/images/philosophy.png",
+    "web": "assets/images/philosophy.webp",
+    "prompt": "Use case: photorealistic-natural. Portrait 4:5 premium wellness editorial still life. An architectural ivory limestone block, clear glass shallow dish with pure water, one slender fresh green botanical branch and its shadow, warm off-white plaster wall. Side sunlight from upper left. Very minimal, tactile raw mineral texture and clarity of glass. Deep forest green and warm ivory subtle palette. No packaging, no text, no UI, no claims. Photorealistic medium-format film quality.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "texture-macro",
+    "source": "assets/images/texture-macro.png",
+    "web": "assets/images/texture-macro.webp",
+    "prompt": "Use case: photorealistic-natural. Landscape 3:2 extreme macro editorial photograph of translucent pale champagne collagen-style jelly folds on smooth warm ivory ceramic, beautiful luminous caustics through the soft jelly, backlit natural afternoon sunlight, almost abstract sculptural glass-like soft food texture, elegantly rippling and slightly moist, minimal composition, realistic food photography. No text, no packaging, no pink, no pills, no medical imagery. Deep soft shadow with warm white highlight. Luxury wellness editorial.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "texture-peach",
+    "source": "assets/images/texture-peach.png",
+    "web": "assets/images/texture-peach.webp",
+    "prompt": "Use case: photorealistic-natural. Square editorial food still-life of a sliced white peach with pale cream flesh and subtle light green skin and a small translucent champagne jelly piece on clear glass dish, pale ivory background, natural side light, sophisticated shadows. High-end wellness magazine, restrained botanical colors, no pink background, no text, no claims, photorealistic.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "ritual-morning",
+    "source": "assets/images/ritual-morning.png",
+    "web": "assets/images/ritual-morning.webp",
+    "prompt": "Use case: product-mockup. Portrait 4:5 editorial morning scene. Same exact narrow ivory SÉRIN stick packaging in the reference lies on pale limestone breakfast table next to a clear glass of water and folded ivory linen, slanting morning sunlight, calm modern apartment, hint of soft sage curtain out of focus, naturally lived-in yet minimal. Product small in scene; exact same green print SÉRIN Essential Collagen Jelly and crimped foil packaging, same proportions as reference. No box, no food health claims, no text outside package.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "ritual-work",
+    "source": "assets/images/ritual-work.png",
+    "web": "assets/images/ritual-work.webp",
+    "prompt": "Use case: product-mockup. Portrait 4:5 premium lifestyle editorial. Same exact narrow ivory SÉRIN stick sachet from reference resting on a closed sage notebook, tasteful silver pen, open art book and small ceramic cup on a warm ivory desk with soft side sunlight. Natural working-day pause, quiet modern space, subtle asymmetry, tactile materials. Reference defines identical foil stick shape and exact green SÉRIN Essential Collagen Jelly print. No box, no claims, no text outside package.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "ritual-travel",
+    "source": "assets/images/ritual-travel.png",
+    "web": "assets/images/ritual-travel.webp",
+    "prompt": "Use case: product-mockup. Portrait 4:5 editorial overhead photograph of open warm ivory canvas travel tote with dark green leather details, two exact identical ivory SÉRIN sachets from reference peeking from its pocket, sunglasses and folded white linen, limestone background, travel essentials art direction, realistic textile textures, natural sunlight. Same sachet shape, proportions and green SÉRIN Essential Collagen Jelly printing as reference. No box, no passports, no claims, no extra text.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "campaign-main",
+    "source": "assets/images/campaign-main-model-v2.png",
+    "web": "assets/images/campaign-main-model-v2.webp",
+    "prompt": "Use case: identity-preserve. Edit the existing LANDSCAPE SÉRIN campaign photograph (the landscape photo with a woman on the right and dark sage wall on the left). The user-attached PORTRAIT of a woman in a dark olive sleeveless draped/cowl-neck dress is the authoritative person AND wardrobe reference. Replace the woman in the landscape campaign with EXACTLY the woman in the user portrait: same face shape, eyes, brows, nose, lips, natural skin texture, hairline and loose softly tied dark hair. Dress her in EXACTLY the same dark olive sleeveless dress with softly draped high cowl neckline and matte fluid fabric as the user portrait, including the olive skirt visible at the lower edge. Remove all of the previous ivory linen top and green overshirt. Keep a natural seated upper-body pose, gently facing camera like the reference, one hand relaxed near chin if appropriate. Preserve the existing landscape campaign's composition: model entirely on the RIGHT half, generous unobstructed dark botanical/sage wall negative space on the LEFT for website copy, restrained warm limestone detail at far right, warm refined natural side light and soft shadows. High-end photorealistic editorial, authentic visible skin and no excessive retouching. Output a single landscape 3:2 image, approximately 1536x1024, no collage, no added text, no logos, no products. The other supplied square and product photographs are context only; DO NOT use their previous woman's identity or clothing.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "previousSource": "assets/images/campaign-main.png",
+    "previousWeb": "assets/images/campaign-main.webp",
+    "reference": "User-supplied portrait: authoritative model identity and dark olive sleeveless draped-neck dress"
+  },
+  {
+    "name": "journal-beauty",
+    "source": "assets/images/journal-beauty.png",
+    "web": "assets/images/journal-beauty.webp",
+    "prompt": "Use case: photorealistic-natural. Portrait 4:5 premium lifestyle magazine still-life, small dark green natural rounded stone beneath clear water in large ivory ceramic shallow bowl, sunlight creates beautiful gentle ripples and bright caustic reflected patterns, warm ivory textured background, thoughtful minimalist asymmetric composition, clear quiet beauty, realistic tactile texture. No text, no packaging, no claims, no bottles. Deep green and ivory editorial palette.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "journal-ritual",
+    "source": "assets/images/journal-ritual.png",
+    "web": "assets/images/journal-ritual.webp",
+    "prompt": "Use case: photorealistic-natural. Portrait 4:5 luxury lifestyle magazine overhead still life. Unbleached linen cloth, open cream notebook with blank pages, soft sage ceramic tea cup, single olive branch shadow across warm ivory stone desk. Honest natural sunlight, deep elegant soft shadows, sparse purposeful composition, tactile paper and linen, quiet daily routine mood. No text, no packaging, no hands, no clutter.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "journal-ingredients",
+    "source": "assets/images/journal-ingredients.png",
+    "web": "assets/images/journal-ingredients.webp",
+    "prompt": "Use case: photorealistic-natural. Portrait 4:5 refined editorial still-life about clarity and ingredient transparency. Three transparent glass dishes, one tiny stainless measuring spoon, clean blank warm ivory paper information card on sage green laboratory style matte tabletop. Sparse architectural arrangement, warm natural sunlight and beautiful clear glass caustics, realistic subtle surface textures. Boutique science meets modern wellness, no powders, no pills, no fake ingredient labels, no medical equipment, no text, no packaging, no claims.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept"
+  },
+  {
+    "name": "campaign-detail",
+    "source": "assets/images/campaign-detail-model-v2.png",
+    "web": "assets/images/campaign-detail-model-v2.webp",
+    "prompt": "Use case: identity-preserve and compositing. Edit the existing SQUARE SÉRIN detail photograph showing a woman holding an ivory branded stick sachet. The user-attached PORTRAIT of the woman in a dark olive sleeveless draped/cowl-neck dress is the authoritative person AND wardrobe reference. Replace the old woman with exactly that reference woman: same visible face, chin, lips, hair strands, natural complexion and hands consistent with her. Replace ALL ivory linen clothing and the green overshirt with EXACTLY her dark olive sleeveless high draped cowl-neck dress, matte softly flowing fabric, olive skirt, bare arms, no jacket, no ivory fabric. Preserve the square detail photograph's framing from lower face/neck to lap and natural two-hand pose gently holding ONE sealed narrow ivory SÉRIN Essential Collagen Jelly sachet. Keep the same warm limestone background and natural sunlight, quiet editorial mood and realistic anatomy. The product still-life image is the authoritative packaging reference: retain the ivory stick's exact long narrow form, fine crimped ends and green printed words 'SÉRIN' and 'Essential Collagen Jelly', legible and unobscured. The previous model's identity and outfit must not carry over. Output ONE square 1:1 1024x1024 photograph, no collage, no extra text or UI, no health claims. Show the olive draped neckline clearly so wardrobe consistency with the user portrait is immediately visible.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "previousSource": "assets/images/campaign-detail.png",
+    "previousWeb": "assets/images/campaign-detail.webp",
+    "reference": "User-supplied portrait: authoritative model identity and dark olive sleeveless draped-neck dress"
+  },
+  {
+    "name": "hero-full-v2",
+    "source": "assets/images/hero-full-v2.png",
+    "web": "assets/images/hero-full-v2.webp",
+    "prompt": "Use case: precise-object-edit / outpainting for website hero. Edit and expand the supplied SÉRIN product reference into ONE seamless premium editorial product photograph filling a whole website hero. Output a wide 16:9 landscape, ideally 2304x1296 or 2560x1440. Preserve the EXACT reference matte deep botanical green box with ivory SÉRIN and Essential Collagen Jelly typography, box dimensions/proportions, two ivory narrow foil sachets with green SÉRIN print, and rough limestone pedestal. Keep box and sachets entirely visible in the RIGHT 45 percent of the final composition, grouped together at moderate scale; box top about 20% down, pedestal base about 88% down, generous right margin. LEFT 48 percent must be a REAL PHOTOGRAPHED light warm ivory plaster wall and ivory stone tabletop with faint organic natural variation: light enough for dark green website typography, calm and uncluttered, no objects or strong shadows behind the future text. Extend the actual physical studio scene continuously across the whole frame, with natural perspective and material grain, soft sunlight from upper left and restrained botanical leaf shadows only near the far edges. No blank digital panel, no color block, no gradient overlay, no split-screen, no seam, no vignette. Left and right are the same continuous photographic setting. Refined warm neutral colors, not yellow, premium natural wellness still life, realistic paper and stone textures. No people. No added headline, UI, border or typography outside the existing packaging. Keep all printed package words faithful to reference. This is the actual full-bleed background asset, not a mockup of a website.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "role": "Full-bleed desktop hero"
+  },
+  {
+    "name": "hero-full-v2-mobile",
+    "source": "assets/images/hero-full-v2-mobile.png",
+    "web": "assets/images/hero-full-v2-mobile.webp",
+    "prompt": "Use case: precise-object-edit / outpainting. Create a PORTRAIT responsive version of the supplied full-width SÉRIN hero photograph. Preserve the EXACT green SÉRIN Essential Collagen Jelly box, two ivory narrow stick sachets, rough limestone pedestal, package proportions and typography, warm ivory physical plaster wall and stone table, soft natural light and restrained corner leaf shadows. Output 2:3 vertical 1024x1536 image, ONE seamless photographed setting. CRITICAL COMPOSITION for mobile website with live HTML text overlay: TOP 58 PERCENT of the portrait must be light warm ivory plaster wall, uncluttered and softly textured, with NO products or props, no dark shadow in central text area; this is actual wall, not a blank panel. All packaging and low limestone pedestal must sit compactly in the LOWER 36 percent, from 60% to 94% down. Product group centered horizontally within middle 68% of the image, with wide side margins to tolerate mobile cover crop; box about 28% of full image height, all box and sachets visible. Lower 6% has only clean ivory table. Let wall grain and lighting continue naturally across the whole photograph. No people, no added titles or text outside packaging, no UI, no gradient overlay, no split-screen or hard seam. Do not introduce a different package shape or color. Keep sophisticated neutral ivory and deep botanical green, realistic matte paper and limestone textures, premium wellness editorial.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "role": "Responsive portrait hero (up to 850px)"
+  },
+  {
+    "name": "hero-sensory",
+    "source": "assets/images/hero-sensory.png",
+    "web": "assets/images/hero-sensory.webp",
+    "prompt": "Use case: style-transfer / faithful responsive reframing. Use the attached landscape jelly photograph as the authoritative visual reference. Create a premium SÉRIN wellness website SECOND HERO photograph that faithfully keeps its translucent pale champagne-gold jelly folds, warm ivory ceramic plate, soft natural sunlight and luminous caustics, subtle botanical leaf shadows near upper left, real tactile ivory tabletop. ONE continuous scene, wide 16:9 landscape, ideally 1672x941 or larger. Place all sculptural jelly and the plate mainly in the RIGHT 52 percent. LEFT 45 percent is an unobstructed light warm ivory photographed background with gentle natural texture and very faint diffuse shadow, dark-green HTML headline will be overlaid there. No strongly contrasting foliage over this copy space. Match the reference's macro detail, quiet premium light and realistic food texture; avoid excessively saturated orange. No package, no people, no fruit, no titles, no text, no UI, no split-screen, no artificial gradient panel. This is an actual full-width photographic background, not a web mockup. Keep reference essence and composition faithful.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "reference": "User-supplied champagne jelly macro photograph",
+    "role": "Second hero slide, desktop"
+  },
+  {
+    "name": "hero-sensory-mobile",
+    "source": "assets/images/hero-sensory-mobile.png",
+    "web": "assets/images/hero-sensory-mobile.webp",
+    "prompt": "Use case: style-transfer / responsive reframing. Use the attached landscape jelly photograph as the authoritative material and lighting reference. Create a PORTRAIT 2:3, 1024x1536 companion photograph for the same SÉRIN second hero: translucent champagne jelly folds on ivory ceramic plate in soft natural sun, warm ivory tabletop/wall and tiny botanical shadows only near top corners. CRITICAL: TOP 60 PERCENT is real light ivory photographed surface with gentle natural grain, no objects, no dark or busy shadow; that space is for live HTML headline, subtitle and button. Jelly and ivory plate occupy only LOWER 34 percent, from about 61% to 94% down, centered within middle 70% width, all folds of interest visible and enough side margin for mobile cropping. Lowest 6% only clean ivory surface. Match the reference's realistic delicate translucent texture and luminous caustics, restrained champagne coloring rather than orange, premium quiet wellness editorial. ONE seamless photograph, no people, no package, no fruit, no typography, no UI, no gradient panel or artificial color block.",
+    "tool": "built-in image_gen",
+    "kind": "AI-generated fictional brand concept",
+    "reference": "User-supplied champagne jelly macro photograph",
+    "role": "Second hero slide, responsive portrait"
+  }
+]
