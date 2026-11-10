@@ -99,7 +99,8 @@ advance(2999);assertSlide(0);
 advance(1);assertSlide(1);
 advance(3000);assertSlide(0);
 hero.dispatchEvent(new window.Event('mouseenter'));
-assert.equal(timers.size,0);advance(6000);assertSlide(0);
+advance(3000);assertSlide(1);
+advance(3000);assertSlide(0);
 hero.dispatchEvent(new window.Event('mouseleave'));advance(3000);assertSlide(1);
 const playback=hero.querySelector('[data-hero-autoplay]');
 click(playback);assert.equal(playback.getAttribute('aria-label'),'자동 전환 재생');
@@ -113,7 +114,7 @@ pageHidden=true;document.dispatchEvent(new window.Event('visibilitychange'));adv
 pageHidden=false;document.dispatchEvent(new window.Event('visibilitychange'));advance(3000);assertSlide(0);
 media.matches=true;motionListeners.forEach(callback=>callback({matches:true}));
 advance(6000);assertSlide(0);assert.equal(playback.getAttribute('aria-label'),'자동 전환 재생');
-console.log('PASS: three-second autoplay and wrap, hover/focus pauses, play/pause control, hidden-tab pause/resume and reduced-motion stop (virtual clock).');
+console.log('PASS: three-second autoplay and wrap, continued autoplay on hover, focus pause, play/pause control, hidden-tab pause/resume and reduced-motion stop (virtual clock).');
 heroBottom=0;window.dispatchEvent(new window.Event('scroll'));
 click(backToTop);assert.equal(topScrollOptions.behavior,'instant');
 heroBottom=900;window.dispatchEvent(new window.Event('scroll'));

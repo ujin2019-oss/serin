@@ -69,7 +69,6 @@
   let heroIndex = 0;
   let heroAutoplay = !motion.matches;
   let heroTimer = null;
-  let heroHovered = false;
   let heroFocused = false;
   let heroTouchActive = false;
   let heroInView = true;
@@ -78,7 +77,7 @@
     heroTimer = null;
     heroPlayback.classList.toggle('is-paused', !heroAutoplay);
     heroPlayback.setAttribute('aria-label', heroAutoplay ? '자동 전환 일시정지' : '자동 전환 재생');
-    const rotating = heroAutoplay && !heroHovered && !heroFocused && !heroTouchActive && !document.hidden && heroInView;
+    const rotating = heroAutoplay && !heroFocused && !heroTouchActive && !document.hidden && heroInView;
     // Keep automatic transitions quiet for screen readers; announce manual changes.
     heroStatus.setAttribute('aria-live', rotating ? 'off' : 'polite');
     if (rotating) heroTimer = window.setTimeout(() => {
@@ -109,11 +108,9 @@
   heroDots.forEach(dot => dot.addEventListener('click', () => showHeroSlide(Number(dot.dataset.heroSlide))));
   heroPlayback.addEventListener('click', () => {
     heroAutoplay = !heroAutoplay;
-    if (heroAutoplay) { heroHovered = false; heroFocused = false; }
+    if (heroAutoplay) heroFocused = false;
     scheduleHeroRotation();
   });
-  hero.addEventListener('mouseenter', () => { heroHovered = true; scheduleHeroRotation(); });
-  hero.addEventListener('mouseleave', () => { heroHovered = false; scheduleHeroRotation(); });
   hero.addEventListener('focusin', () => { heroFocused = true; scheduleHeroRotation(); });
   hero.addEventListener('focusout', event => {
     heroFocused = Boolean(event.relatedTarget && hero.contains(event.relatedTarget));
